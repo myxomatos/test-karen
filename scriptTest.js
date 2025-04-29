@@ -9,3 +9,5 @@ const user1 = checkAdminAccess({ role: 'Admin' }); // Should return true
 const user2 = checkAdminAccess({ role: 'developer' }); // Should return false
 
 console.log(user1, user2);
+
+console.log();
